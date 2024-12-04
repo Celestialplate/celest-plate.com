@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make an Order - Celestial Plate</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #8B4513, #000);
+            color: white;
+        }
+        header {
+            background-color: #4B2E26;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+        h1{
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px; 
+
+        }
+        p{
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px; 
+
+        }
+       
+        
+        nav {
+            background-color: #2F1B13;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #8B4513;
+        }
+        section {
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4B2E26;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="book.html">Book a Table</a>
+    <a href="order.html">Make an Order</a>
+  </nav>
+  <h1>Make an Order</h1>
+  <p>Place your order for celestial dishes here.</p>
+  <section id="order">
+<form style="max-width: 500px; margin: 0 auto; background-color: #2F1B13; padding: 20px; border-radius: 10px;">
+    <label for="name" style="display: block; margin-bottom: 10px;">Your Name:</label>
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; margin-bottom: 20px;">
+
+    <label for="email" style="display: block; margin-bottom: 10px;">Email:</label>
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; margin-bottom: 20px;">
+
+    <label for="address" style="display: block; margin-bottom: 10px;">Address:</label>
+    <input type="text" id="address" name="address" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; margin-bottom: 20px;">
+
+    <label for="orderDetails" style="display: block; margin-bottom: 10px;">Order Details:</label>
+    <textarea id="orderDetails" name="orderDetails" rows="4" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; margin-bottom: 20px;"></textarea>
+
+    <button type="submit" style="width: 100%; padding: 15px; background-color: #8B4513; color: white; border: none; border-radius: 5px; font-size: 18px;">Place Order</button>
+</form>
+
+
+    </section>
+
+</body>
+</html>
